@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bg-light{
+    background-color: #fff0 !important;
+}
+.header{
+    
+    background:linear-gradient( 63deg,rgba(50, 57, 255, 0.797), rgb(207, 195, 195))  !important;
+    height:300px !important;
+    /* border-radius: 100% 0% 100% 0% / 0% 2% 98% 100%; */
+    /* border-radius: 10% 10% 30% 34% / 0% 0% 58% 50%  ; */
+    border-radius:0% 0% 100% 49% / 25% 25% 100% 0% ;
+    height: 160px !important;
+}
+.sub-header{
+    background-color: rgba(50, 57, 255, 0.797) !important;
+    height: 100px !important;
+    /* border-radius: 100% 0% 100% 0% / 0% 2% 98% 100%; */
+    /* border-radius: 10% 10% 30% 34% / 0% 0% 58% 50%  ; */
+    border-radius: 25% 25% 100% 0% / 0% 0% 100% 49%;
+
+}
+.navbar-nav .nav-link{
+    font-size: 12px;
+    font-weight: 500;
+    color: white !important;
+}
+
+.news{
+    clip-path: polygon(0 6%, 50% 0, 50% 100%, 0 93%, 0 50%);
+    border: 1px solid ;
+    height: 370px;
+    box-shadow: 26px 15px 32px 15px black ; }
+
+    
+
+ul{
+    list-style: none;
+}
+.fa-solid{
+    color:rgba(50, 57, 255, 0.797) ;
+    font-weight: 900;
+    font-size: 17px;
+    transform: scale(0.9);
+    padding: 0px 9px;
+}
+.mobile{
+    position: relative;
+    overflow: hidden;
+}
+.poster{
+    position: relative;
+    transform: scale(0.8);
+    bottom: 228px;
+    width: 126px;
+}
+.gpay{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(50, 57, 255, 0.5) ;
+    position: relative;
+    bottom: 505px;
+    left: 50px;
+    
+}
+.visa{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(50, 57, 255, 0.5) ;
+    position: relative;
+    bottom: 420px;
+    left: 35px;
+    
+}
+.boy img{
+    position: relative;
+    bottom:710px;
+    left: 110px;
+    transform: scale(0.4);
+}
+.phone{
+    max-height: 274px;
+
+}
+.icon_s ul li{
+     height: 20px;
+     width: 20px;
+     background-color: black;
+}
